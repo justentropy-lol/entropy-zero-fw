@@ -1,0 +1,7 @@
+menu "Additional Configuration"
+
+    config SET_MAC_ADDRESS_OF_TARGET_AP
+        bool "Set MAC address of target AP"
+        default y
+
+endmenu
